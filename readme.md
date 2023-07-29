@@ -3,7 +3,6 @@
 Данная сборка - переосмысление <a href='https://github.com/seelentov/seelentov-gulp-webdev/'>"Сборка GULP для верстки от Seelentov"</a> для работы с php компонентами.
 
 - Отдельные модули php, scss и js
-- Сжатие изображений
 - Сжатие css и js кода
 - Mocha, chai тесты
 - Выгрузка по FTP
