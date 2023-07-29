@@ -8,7 +8,7 @@ export const path ={
   build:{
     js: `${buildFolder}/js/`,
     css: `${buildFolder}/css/`,
-    html: `${buildFolder}/`,
+    php: `${buildFolder}/`,
     images: `${buildFolder}/img/`,
     files: `${buildFolder}/files/`,
     fonts: `${buildFolder}/fonts/`,
@@ -18,7 +18,7 @@ export const path ={
     images: `${srcFolder}/img/**/*.{webp,jpg,jpeg,png,gif}`,
     svg: `${srcFolder}/img/**/*.svg`,
     scss: `${srcFolder}/scss/style.scss`,
-    html: `${srcFolder}/*.html`,
+    php: `${srcFolder}/*.php`,
     files: `${srcFolder}/files/**/*.*`,
     svgicons: `${srcFolder}/svgicons/*.svg`,
   },
@@ -26,7 +26,7 @@ export const path ={
     js: `${srcFolder}/js/**/*.js`,
     images: `${srcFolder}/img/**/*.{svg,jpg,jpeg,png,gif,webp}`,
     scss: `${srcFolder}/scss/**/*.scss`,
-    html: `${srcFolder}/**/*.html`,
+    php: `${srcFolder}/**/*.php`,
     files: `${srcFolder}/files/**/*.*`,
     
   },

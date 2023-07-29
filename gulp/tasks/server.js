@@ -1,8 +1,6 @@
 export const server = (done) => {
   app.plugins.browsersync.init({
-    server: {
-      baseDir: `${app.path.build.html}`
-    },
+    proxy: 'yoursite.com', // Замените на адрес и порт вашего сервера Open Server
     notify: false,
     port: 3000,
   });

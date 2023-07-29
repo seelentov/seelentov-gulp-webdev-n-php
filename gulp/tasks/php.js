@@ -4,11 +4,11 @@ import versionNumber from 'gulp-version-number';
 
 
 
-export const html = () => {
-  return app.gulp.src(app.path.src.html)
+export const php = () => {
+  return app.gulp.src(app.path.src.php)
   .pipe(app.plugins.plumber(
     app.plugins.notify.onError({
-      title:'HTML',
+      title:'PHP',
       message: 'Error: <%= error.message %>'
     })
   ))
@@ -39,7 +39,7 @@ export const html = () => {
       })
     )
   )
-  .pipe(app.gulp.dest(app.path.build.html))
+  .pipe(app.gulp.dest(app.path.build.php))
   .pipe(app.plugins.browsersync.stream())
 }
 
